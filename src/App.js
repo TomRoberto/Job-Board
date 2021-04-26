@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./Header";
+import Footer from "./Footer";
+import Jobs from "./Jobs";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="app">
+      <Header name="The Job Board" />
+      <Jobs />
+      <Footer name="Tom ROBERTO" />
     </div>
   );
 }
