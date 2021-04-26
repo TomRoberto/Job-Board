@@ -105,3 +105,30 @@ footer span {
 .jobs p {
   font-size: 12px;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .jobs {
+    height: auto;
+  }
+  .job1,
+  .job2,
+  .job3,
+  .job4,
+  .job5,
+  .job6,
+  .job7,
+  .job8,
+  .job9 {
+    width: 100%;
+    height: 300px;
+
+    padding: 30px;
+    margin: 0 0 15px 0;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+}
